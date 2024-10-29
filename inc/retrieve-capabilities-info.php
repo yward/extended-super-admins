@@ -61,6 +61,7 @@ function getCodexCapabilities() {
 	$tmp = maybe_unserialize( $capsInfo['body'] );
 	$tmp = maybe_unserialize( $tmp['query'] );
 	$tmp = maybe_unserialize( $tmp['pages'] );
+	$tmp = isset($tmp) ? array($tmp) : [];
 	$tmp = array_shift( $tmp );
 	$tmp = $tmp['revisions'][0];
 	$capsInfo = array( 'time_retrieved' => time(), 'revision_time' => strtotime( $tmp['timestamp'] ), 'pageContent' => $tmp['*'] );
