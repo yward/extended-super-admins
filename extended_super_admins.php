@@ -1,16 +1,20 @@
 <?php
 /*
-Plugin Name: Extended Super Admins
-Version: 0.7
-Plugin URI: http://plugins.ten-321.com/extended-super-admins/
+Plugin Name: Extended Super Admins - Technical Support Users
+Version: 1.1
+Plugin URI: https://xoo.link
 Description: Enables the creation of multiple levels of "Super Admins" within WordPress Multi Site. Multiple new roles can be created, and all capabilities generally granted to a "Super Admin" can be revoked individually.
-Author: Curtiss Grymala
-Author URI: http://ten-321.com/
+Author: Yousif Ward
+Author URI: https://1os.dev
 Network: true
 License: GPL2
 Text Domain: esa_text_domain
 
 ---
+Based on work by Curtiss Grymala
+Changelog by Yousif Ward
+-Fixed critical errors on PHP 8 
+-Fixed PHP 8 Warnings
 
 Copyright 2011 Curtiss Grymala (email: cgrymala@umw.edu)
 
